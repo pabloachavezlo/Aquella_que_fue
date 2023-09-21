@@ -1,0 +1,15 @@
+
+main h1 {
+    margin-top: 3rem;
+    font-family: 'Great Vibes', cursive;
+    font-size: 3rem;
+    text-align: center;
+}
+
+main .p1 {
+    margin: 2rem;
+}
+
+main .p2 {
+    margin: 2rem;
+}
