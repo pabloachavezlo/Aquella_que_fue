@@ -1,15 +1,53 @@
+@media (min-width: 300px) and (max-width: 400px) {
+    
+    header {
+        padding: 1rem;
+        background-color: black;
+        text-align: center;
 
-main h1 {
-    margin-top: 3rem;
-    font-family: 'Great Vibes', cursive;
-    font-size: 3rem;
-    text-align: center;
-}
+        display: flex;
+        justify-content: space-around;
+        font-family: 'Great Vibes', cursive;
+    }
 
-main .p1 {
-    margin: 2rem;
-}
+    header p {
+        text-align: center;
+        color: white;
+        font-size: 2.5rem;
+        font-family: 'EB Garamond', sans-serif;
+    }
 
-main .p2 {
-    margin: 2rem;
+    header img {
+        height: 3rem;
+    }
+    
+    main h1 {
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+        font-family: 'Great Vibes', cursive;
+        font-size: 2.7rem;
+        text-align: center;
+    }
+    
+    main .main_main {
+        margin: 0.3rem;
+        padding: 8px;
+        
+        background-color: rgb(89, 4, 4);
+    }
+
+    .main_main .p1 {
+        margin: 20px;
+        text-align: center;
+    }
+    
+    .main_main .p2 {
+        margin: 20px;
+        text-align: center;
+    }
+
+    .main_main h4 {
+        margin: 10px;
+    }
+    
 }

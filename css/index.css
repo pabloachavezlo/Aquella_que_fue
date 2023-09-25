@@ -1,8 +1,15 @@
-* {
-    background-color: rgb(169, 6, 6);
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
+body {
+    background-color: black;
+}
+
+main a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+main a img {
+    margin-top: 15rem;
+    height: 5rem;
 }
 
