@@ -1,90 +1,20 @@
-@media (min-width: 280px) and (max-width: 1400px) {
-    
-    header {
-        padding: 1rem;
-        background-color: black;
-        text-align: center;
-        position:fixed;
-        top: 0rem;
-        width: 100%;
+body {
+    background-color: white;
+}
 
-        display: flex;
-        justify-content: space-around;
-        font-family: 'Great Vibes', cursive;
-    }
+html {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
-    header p {
-        text-align: center;
-        color: white;
-        font-size: 2.5rem;
-        font-family: 'EB Garamond', sans-serif;
-
-        max-width: 25%;
-    }
-
-    header img {
-        height: 3rem;
-    }
-    
-    main h1 {
-        margin-top: 8rem;
-        margin-bottom: 2rem;
-        font-family: 'Great Vibes', cursive;
-        font-size: 2.7rem;
-        text-align: center;
-    }
-    
-    main .main_main {
-        margin: 0.3rem;
-        padding: 1.5rem;
-        color: white;
-        
-        background-color: rgb(89, 4, 4);
-    }
-
-    .main_main .p1 {
-        margin-top: 5px;
-        text-align:center;
-    }
-    
-    .main_main .p2 {
-        margin-top: 3rem;
-        text-align: center;
-    }
-
-    h4 {
-        margin-top: 2rem;
-        margin-right: 0.5rem;
-        margin-left: 0.5rem;
-        text-align: center;
-        font-size: 1.2rem;
-    }
-
-    h3 {
-        margin-top: 2rem;
-        padding-right: 0.5rem;
-        padding-left: 0.5rem;
-        text-align: center;
-        font-size: 1.2rem;
-    }
-
-
-    .menu {
-        margin-top: 2rem;
-        margin-bottom: 4rem;
-        margin-left: 1rem;
-        margin-right: 1rem;
-    }
-    .menu ul {
-        display: flex;
-        flex-direction: column;
-        list-style: none;
-
-        align-items: center;
-    }
-    .menu img {
-        height: 8rem;
-        margin: 2rem;
-    }
-    
+.main_main p {
+    color: white;
+    text-align: center;
+    padding: 1rem;
+}
+.main_main p:hover {
+    color: #000000;
+    font-weight: 700;
 }

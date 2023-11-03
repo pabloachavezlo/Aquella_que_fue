@@ -1,0 +1,65 @@
+@media (min-width: 280px) and (max-width: 400px) {
+    
+    header {
+        padding: 1rem;
+        background-color: black;
+        text-align: center;
+        position:fixed;
+        top: 0rem;
+        width: 100%;
+
+        display: flex;
+        justify-content: space-around;
+        font-family: 'Great Vibes', cursive;
+    }
+
+    header p {
+        text-align: center;
+        color: white;
+        font-size: 2.5rem;
+        font-family: 'EB Garamond', sans-serif;
+
+        max-width: 25%;
+    }
+    p:hover{
+        color: var(---color2);
+    }
+
+    header img {
+        height: 3rem;
+    }
+
+}
+
+@media (min-width: 401px) and (max-width: 1400px) {
+    
+    header {
+        padding: 1rem;
+        background-color: black;
+        text-align: center;
+        position:fixed;
+        top: 0rem;
+        width: 100%;
+
+        display: flex;
+        justify-content: space-around;
+        font-family: 'Great Vibes', cursive;
+    }
+
+    header p {
+        text-align: center;
+        color: white;
+        font-size: 2.5rem;
+        font-family: 'EB Garamond', sans-serif;
+
+        max-width: 25%;
+    }
+    p:hover{
+        color: var(---color6);
+    }
+
+    header img {
+        height: 3rem;
+    }
+   
+}

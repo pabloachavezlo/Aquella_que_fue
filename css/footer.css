@@ -1,0 +1,15 @@
+.mid a {
+    background-color: black;
+    text-decoration: none;
+}
+
+.mid a:link {
+    color: white;
+}
+.mid a:visited {
+    color: green;
+}
+
+.cont div:nth-child(2) {
+    color: tomato;
+}

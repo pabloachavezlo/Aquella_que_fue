@@ -6,8 +6,8 @@ function enviar_barra() {
     
         <header>
             <p class="p1h">J</p>
-            <img src="./img/me-gusta.png" alt="">
-            <p class="ph2">P</p>
+            <a class="toggle-btn" onclick="toggleSidebar()"><img src="./img/me-gusta.png" alt=""></a>
+            <p class="p2h">J</p>
         </header>
     `;
 

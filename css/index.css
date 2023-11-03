@@ -1,21 +1,78 @@
 body {
+    display: flex;
+    flex-direction: column;
+
+    /*Comportamiento*/
     background-color: black;
+
+}
+
+.principal1 {
+    display: flex;
+    flex-direction: column;
+}
+
+.principal1 .subprincipal1 {
+    display: flex;
+    flex-direction: column;
+
+    text-align: center;
+    min-width: 250px;
+    max-width: 350px;
+    height: 100vh;
+    padding-top: 12rem;
+
+    border: 3px solid white;
+    
     font-family: 'Great Vibes', cursive;
 }
 
+@media (min-width: 351px) {
+    body {
+        display: flex;
+        flex-direction: column;
+    
+        /*Comportamiento*/
+        background-color: black;
+    
+    }
+    
+    .principal1 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .principal1 .subprincipal1 {
+        display: flex;
+        flex-direction: column;
+    
+        text-align: center;
+        width: 351px;
+        height: 100vh;
+        padding-top: 12rem;
+    
+        border: 3px solid white;
+        
+        font-family: 'Great Vibes', cursive;
+    }
+}
 
-main {
-    margin-top: 15rem;
-    margin-bottom: 15rem;
-}
-main a {
-    display: flex;
+.subprincipal1 a {
     flex-direction: column;
-    align-items: center;
-    text-align: center;
+    align-content: center;
+    align-self: center;
+
+    width: 8rem;
 }
-main a img {
-    height: 5rem;
+
+.subprincipal1 a img {
+    height: 10rem;
+    align-self: center;
+    position:relative;
+}
+img:hover .principal1 {
+    background-color: white;
 }
 
 .indicación {
@@ -23,7 +80,7 @@ main a img {
     flex-direction: column;
     align-items: center;
     text-align: center;
-    margin-top: 10rem;
+    margin-top: 8rem;
     
     justify-content: space-around;
 
