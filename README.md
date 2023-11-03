@@ -1,3 +1,3 @@
-# Ella_mi_todo
+# Tu_y_solo_tu
 
-https://pabloachavezlo.github.io/Ella_mi_todo/
+https://pabloachavezlo.github.io/Tu_y_solo_tu/
