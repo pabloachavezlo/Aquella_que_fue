@@ -46,6 +46,7 @@ h3 {
 
 
 .menu {
+    display: block;
     margin-top: 2rem;
     margin-bottom: 4rem;
     margin-left: 1rem;
@@ -61,8 +62,8 @@ h3 {
 .menu img {
     height: 8rem;
     margin: 2rem;
-}
-    
+} 
+
 
 @media (min-width: 401px) and (max-width: 1400px) {
 
