@@ -14,19 +14,105 @@ main .main_main {
     margin-right: 0.3rem;
     padding: 1.5rem;
     color: white;
+    z-index: 1;
     
-    background-color: var(---color5)
+    background-color: var(---color5);
+    filter: blur(5px);
 }
-
+.main_main:hover {
+    margin-top: 2rem;
+    margin-left: 0.3rem;
+    margin-right: 0.3rem;
+    padding: 1.5rem;
+    color: white;
+    transition: 1.5s;
+    cursor: pointer;
+    
+    background-color: var(---color2);
+    filter: blur(0px);
+}
 .main_main p {
     color: white;
     text-align: center;
     padding: 1rem;
-}
-.main_main p:hover {
-    color: #000000;
     font-weight: 700;
 }
+.main_main .p-especial {
+    filter: blur(5px);
+}
+.main_main .p-especial:hover {
+    filter: blur(0);
+    transition: 1.5s;
+}
+
+main .main_main2 {
+    margin-top: 2rem;
+    margin-left: 0.3rem;
+    margin-right: 0.3rem;
+    padding: 1.5rem;
+    color: white;
+    z-index: 1;
+    
+    background-color: var(---color5);
+    filter: blur(5px);
+}
+.main_main2:hover {
+    margin-top: 2rem;
+    margin-left: 0.3rem;
+    margin-right: 0.3rem;
+    padding: 1.5rem;
+    color: white;
+    transition: 1.5s;
+    cursor: pointer;
+    
+    background-color: var(---color2);
+    filter: blur(0px);
+}
+.main_main2 p {
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    font-weight: 700;
+}
+.main_main2 .p-especial {
+    filter: blur(5px);
+}
+.main_main2 .p-especial:hover {
+    filter: blur(0);
+    transition: 1.5s;
+}
+
+
+main .main_main3 {
+    margin-top: 2rem;
+    margin-left: 0.3rem;
+    margin-right: 0.3rem;
+    padding: 1.5rem;
+    color: white;
+    z-index: 1;
+    
+    background-color: var(---color5);
+    filter: blur(5px);
+}
+.main_main3:hover {
+    margin-top: 2rem;
+    margin-left: 0.3rem;
+    margin-right: 0.3rem;
+    padding: 1.5rem;
+    color: white;
+    transition: 1.5s;
+    cursor: pointer;
+    
+    background-color: var(---color2);
+    filter: blur(0px);
+}
+.main_main3 p {
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    font-weight: 700;
+}
+
 
 h4 {
     margin-top: 2rem;
@@ -42,6 +128,14 @@ h3 {
     margin-left: 3rem;
     text-align: center;
     font-size: 1.2rem;
+}
+
+h2 {
+    margin-top: 2rem;
+    margin-right: 1rem;
+    margin-left: 1rem;
+    text-align: center;
+    font-size: 2rem;
 }
 
 
@@ -76,7 +170,6 @@ h3 {
 
         color: var(---color6);
     }
-    
     main .main_main {
         margin-top: 2rem;
         margin-left: 0.3rem;
@@ -88,16 +181,54 @@ h3 {
         
         background-color: var(---color5);
     }
-
     .main_main p {
         color: white;
         text-align: center;
         padding: 1rem;
-    }
-    .main_main p:hover {
-        color: #000000;
         font-weight: 700;
     }
+
+
+    main .main_main2 {
+        margin-top: 2rem;
+        margin-left: 0.3rem;
+        margin-right: 0.3rem;
+        padding: 1.5rem;
+        color: white;
+        z-index: 1;
+        min-width: 250px;
+        max-width: 1477px;
+        
+        background-color: var(---color5);
+        filter: blur(5px);
+    }
+    .main_main2 p {
+        color: white;
+        text-align: center;
+        padding: 1rem;
+        font-weight: 700;
+    }
+
+    main .main_main3 {
+        margin-top: 2rem;
+        margin-left: 0.3rem;
+        margin-right: 0.3rem;
+        padding: 1.5rem;
+        color: white;
+        z-index: 1;
+        min-width: 250px;
+        max-width: 1477px;
+        
+        background-color: var(---color5);
+        filter: blur(5px);
+    }
+    .main_main3 p {
+        color: white;
+        text-align: center;
+        padding: 1rem;
+        font-weight: 700;
+    }
+
 
     h4 {
         margin-top: 2rem;
@@ -154,6 +285,32 @@ h3 {
         
         background-color: var(---color5);
     }
+
+    main .main_main2 {
+        margin-top: 2rem;
+        margin-left: 0.3rem;
+        margin-right: 0.3rem;
+        padding: 1.5rem;
+        color: white;
+        z-index: 1;
+        width: 479px;
+        
+        background-color: var(---color5);
+        filter: blur(5px);
+    }
+
+    main .main_main3 {
+        margin-top: 2rem;
+        margin-left: 0.3rem;
+        margin-right: 0.3rem;
+        padding: 1.5rem;
+        color: white;
+        z-index: 1;
+        width: 479px;
+        
+        background-color: var(---color5);
+        filter: blur(5px);
+    }
 }
 
 @media (min-width: 601px) {
@@ -191,5 +348,31 @@ h3 {
         width: 520px;
         
         background-color: var(---color5);
+    }
+
+    main .main_main2 {
+        margin-top: 2rem;
+        margin-left: 0.3rem;
+        margin-right: 0.3rem;
+        padding: 1.5rem;
+        color: white;
+        z-index: 1;
+        width: 520px;
+        
+        background-color: var(---color5);
+        filter: blur(5px);
+    }
+
+    main .main_main3 {
+        margin-top: 2rem;
+        margin-left: 0.3rem;
+        margin-right: 0.3rem;
+        padding: 1.5rem;
+        color: white;
+        z-index: 1;
+        width: 520px;
+        
+        background-color: var(---color5);
+        filter: blur(5px);
     }
 }

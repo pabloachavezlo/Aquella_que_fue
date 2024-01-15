@@ -5,9 +5,9 @@ function enviar_barra() {
     enviar.innerHTML = `
     
         <header>
-            <p class="p1h">J</p>
-            <a class="toggle-btn" onclick="toggleSidebar()"><img src="./img/me-gusta.png" alt=""></a>
-            <p class="p2h">J</p>
+            <p class="p1h">»»——</p>
+            <a class="toggle-btn" onclick="toggleSidebar()" href="./index.html"><img src="./img/me-gusta.png" alt=""></a>
+            <p class="p2h">——««</p>
         </header>
     `;
 

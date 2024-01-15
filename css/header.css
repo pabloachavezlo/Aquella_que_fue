@@ -4,9 +4,10 @@
         padding: 1rem;
         background-color: black;
         text-align: center;
-        position:fixed;
+        position: fixed;
         top: 0rem;
         width: 100%;
+        z-index: 2;
 
         display: flex;
         justify-content: space-around;
@@ -16,7 +17,7 @@
     header p {
         text-align: center;
         color: white;
-        font-size: 2.5rem;
+        font-size: 1.6rem;
         font-family: 'EB Garamond', sans-serif;
 
         max-width: 25%;
@@ -40,6 +41,7 @@
         position:fixed;
         top: 0rem;
         width: 100%;
+        z-index: 2;
 
         display: flex;
         justify-content: space-around;
@@ -49,7 +51,7 @@
     header p {
         text-align: center;
         color: white;
-        font-size: 2.5rem;
+        font-size: 2rem;
         font-family: 'EB Garamond', sans-serif;
 
         max-width: 25%;
