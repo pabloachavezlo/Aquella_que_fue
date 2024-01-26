@@ -82,7 +82,6 @@ main .main_main2 {
     transition: 1.5s;
 }
 
-
 main .main_main3 {
     margin-top: 2rem;
     margin-left: 0.3rem;
@@ -94,6 +93,17 @@ main .main_main3 {
     background-color: var(---color5);
     filter: blur(5px);
 }
+
+.main_main3 p.txt_prueba {filter: blur(0px) !important;}
+/*.main_main3 p.txt_prueba:nth-of-type(1) {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+
+    position:fixed;
+
+    filter: blur(0px);
+}*/
 .main_main3:hover {
     margin-top: 2rem;
     margin-left: 0.3rem;
@@ -105,6 +115,10 @@ main .main_main3 {
     
     background-color: var(---color2);
     filter: blur(0px);
+}
+.main_main3:hover p.txt_prueba{
+    display: none;
+    transition: 1.5s;
 }
 .main_main3 p {
     color: white;
