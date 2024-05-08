@@ -20,7 +20,7 @@ body {
     min-width: 250px;
     max-width: 350px;
     height: 100vh;
-    padding-top: 12rem;
+    padding-top: 9rem;
 
     border: 3px solid white;
     
@@ -50,12 +50,14 @@ body {
         text-align: center;
         width: 351px;
         height: 100vh;
-        padding-top: 12rem;
+        padding-top: 9rem;
     
         border: 3px solid white;
         
         font-family: 'Great Vibes', cursive;
     }
+
+    
 }
 
 .subprincipal1 a {
@@ -70,22 +72,73 @@ body {
     height: 10rem;
     align-self: center;
     position:relative;
+    margin-top: 4rem;
 }
 img:hover .principal1 {
     background-color: white;
 }
 
-.indicación {
+.indicación1 {
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
-    margin-top: 8rem;
     
     justify-content: space-around;
 
 }
-.indicación p {
+.indicación1 p {
     color: white;
     font-size: 1.7rem;
+}
+
+.indicación2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    
+    margin-top: 4rem;
+    
+    justify-content: space-around;
+
+}
+.indicación2 input {
+    color: white;
+    font-size: 1.7rem;
+    background-color: black;
+    font-family: 'Great Vibes', cursive;
+    max-width: 12rem;
+    border-radius: 1.5rem;
+    border-style: solid;
+    border-color: var(---color5);
+    border-width: 3px;
+
+    padding-top: 0.5rem;
+    text-align: center;
+}
+
+.indicación2 button {
+    color: var(---color7);
+    font-size: 1.1rem;
+    background-color: var(---color6);
+    border-color: var(---color7);
+    border: 0.5rem;
+    border-radius: 0.5rem;
+    margin-top: 0.3rem;
+
+    padding: 0.6rem;
+
+    text-align: center;
+    display: block;
+    height: auto;
+    width: min-content;
+
+    transition: all .1s ease-in
+}
+.indicación2 button:hover {
+    color: var(---color3);
+    background-color: var(---color7);
+
+
 }

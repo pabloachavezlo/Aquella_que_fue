@@ -4,11 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>❤</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 
     <!-- Conexión CSS -->   
     <link rel="stylesheet" href="./css/config.css">
     <link rel="stylesheet" href="./css/index.css">
-    <link rel="stylesheet" href="./css/footer.css">
 
     <!-- Conexión Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -23,20 +23,26 @@
 
         <section class="subprincipal1">
 
+
+            <div class="indicación1">
+                <p>Ingrese la clave para acceder...</p>
+            </div>
+
             <a href="./pagprincipal.html">
                 <img src="./img/candado.png" alt="">
             </a>
-    
-            <div class="indicación">
-                <p>Presiona el corazón</p>
+
+            <div class="indicación2">
+                <input type="password" maxlength="6" id="pass1" placeholder="Clave" required>
+                <button type="button" id="confirmar1">Confirmar</button>
+                <div class="resultado"></div>
             </div>
+
             
         </section>
 
 
     </section>
-
-    <div class="footer"></div>
 
 
     <!-- Scripts -->
