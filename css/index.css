@@ -98,7 +98,7 @@ img:hover .principal1 {
     align-items: center;
     text-align: center;
     
-    margin-top: 4rem;
+    margin-top: 3rem;
     
     justify-content: space-around;
 
@@ -111,7 +111,7 @@ img:hover .principal1 {
     max-width: 12rem;
     border-radius: 1.5rem;
     border-style: solid;
-    border-color: var(---color5);
+    border-color: var(---color8);
     border-width: 3px;
 
     padding-top: 0.5rem;
