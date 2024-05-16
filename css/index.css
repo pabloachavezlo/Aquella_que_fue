@@ -121,7 +121,7 @@ img:hover .principal1 {
 .indicación2 button {
     color: var(---color7);
     font-size: 1.1rem;
-    background-color: var(---color6);
+    background-color: var(---color9 );
     border-color: var(---color7);
     border: 0.5rem;
     border-radius: 0.5rem;
@@ -139,6 +139,4 @@ img:hover .principal1 {
 .indicación2 button:hover {
     color: var(---color3);
     background-color: var(---color7);
-
-
 }
