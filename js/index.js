@@ -5,12 +5,13 @@ var alerts = [
     'Esto no es para cualquiera, no te preocupes, intentalo de nuevo! 😘',
     'Intentalo otra vez, no te rindas 💪',
     'Vamos... Dale, sé que lo sabes 🙃🙃',
-    'Piensa un poquito más... 🫠',
+    'Piensalo un poquito más 🧠',
     'Otra vez? Enserio...? 🤨',
+    'Está bien... una pista, nombre de canción muy especial 👍',
+    'Nada enserio? ☹',
     'Ni como ayudarte... 😕',
-    'Está bien... Aunque sea una última vez piensalo... 🫡',
-    'Nada enserio? 🫥',
-    'Está bien, la contraseña es... sirena 🧜‍♀️'
+    '...  again? No es tan difícil 😒',
+    'Ya pues... La contraseña es... sirena 🧜‍♀️'
 ];
 
 var currentIndex = 0;

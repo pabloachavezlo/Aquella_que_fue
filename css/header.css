@@ -1,4 +1,4 @@
-@media (min-width: 280px) and (max-width: 400px) {
+@media (min-width: 200px) and (max-width: 325px) {
     
     header {
         padding: 1rem;
@@ -10,10 +10,13 @@
         z-index: 2;
 
         display: flex;
-        justify-content: space-around;
+        justify-content: space-evenly;
         font-family: 'Great Vibes', cursive;
     }
 
+    header .p1h {
+        display: none;
+    }
     header p {
         text-align: center;
         color: white;
@@ -28,11 +31,82 @@
 
     header img {
         height: 3rem;
+        position: inherit;
     }
 
 }
 
-@media (min-width: 401px) and (max-width: 1400px) {
+@media (min-width: 326px) and (max-width: 400px) {
+    
+    header {
+        padding: 1rem;
+        background-color: black;
+        text-align: center;
+        position: fixed;
+        top: 0rem;
+        width: 100%;
+        z-index: 2;
+
+        display: flex;
+        justify-content: space-evenly;
+        font-family: 'Great Vibes', cursive;
+    }
+
+    header p {
+        text-align: center;
+        color: white;
+        font-size: 0.98rem;
+        font-family: 'EB Garamond', sans-serif;
+
+        padding-top: 0.60rem;
+
+    }
+    p:hover{
+        color: var(---color2);
+    }
+
+    header img {
+        height: 3rem;
+        position: inherit;
+    }
+
+}
+
+@media (min-width: 401px) and (max-width: 500px) {
+    
+    header {
+        padding: 1rem;
+        background-color: black;
+        text-align: center;
+        position:fixed;
+        top: 0rem;
+        width: 100%;
+        z-index: 2;
+
+        display: inline-flex;
+        justify-content: space-evenly;
+        font-family: 'Great Vibes', cursive;
+    }
+
+    header p {
+        text-align: center;
+        color: white;
+        font-size: 1.39rem;
+        font-family: 'EB Garamond', sans-serif;
+
+        padding-top: 0.49rem;
+    }
+    p:hover{
+        color: var(---color6);
+    }
+
+    header img {
+        height: 3rem;
+    }
+   
+}
+
+@media (min-width: 501px) and (max-width: 1501px) {
     
     header {
         padding: 1rem;
@@ -44,17 +118,16 @@
         z-index: 2;
 
         display: flex;
-        justify-content: space-around;
+        justify-content: space-evenly;
         font-family: 'Great Vibes', cursive;
     }
 
     header p {
         text-align: center;
         color: white;
-        font-size: 2rem;
+        font-size: 1.8rem;
         font-family: 'EB Garamond', sans-serif;
 
-        max-width: 25%;
     }
     p:hover{
         color: var(---color6);
